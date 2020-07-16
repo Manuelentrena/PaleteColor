@@ -1,9 +1,9 @@
 :root {
-  --colorPrincipal: #b5e655;
-  --colorPrincipalClaro: #edf7f2;
-  --colorPrincipalOscuro: #96ca2d;
-  --colorSecundario: #4bb5c1;
-  --colorSecundarioClaro: #7fc6bc;
+  --colorPrincipal: #c2daa6;
+  --colorPrincipalClaro: #b9d998;
+  --colorPrincipalOscuro: #3c7300;
+  --colorSecundario: #a8dc3c;
+  --colorSecundarioClaro: #e2f1d0;
 
   --colorPrincipal2: #a9cf54;
   --colorPrincipalClaro2: #f7e967;
@@ -71,7 +71,7 @@ body {
 .pre-title {
   width: 100%;
   height: 4%;
-  background-color: var(--colorPrincipalOscuro);
+  background-color: var(--colorSecundario);
   padding: 0.1rem 1.5rem;
 }
 
@@ -98,12 +98,13 @@ body {
 
 .font-pre-title {
   font-size: 1.6rem;
+  color: var(--blanco);
 }
 
 .title {
   width: 100%;
   height: 12%;
-  background-color: var(--colorPrincipal);
+  background-color: var(--colorSecundarioClaro);
   padding: 0.7rem 1.5rem;
 }
 
@@ -135,7 +136,7 @@ body {
 .text {
   width: 100%;
   height: 30%;
-  background-color: var(--colorSecundario);
+  background-color: var(--blanco);
   padding: 2rem 2rem;
 }
 
@@ -167,7 +168,7 @@ body {
 .footer {
   width: 100%;
   height: 30%;
-  background-color: var(--colorSecundarioClaro);
+  background-color: var(--gris);
   padding: 2rem 2rem;
 }
 
@@ -231,9 +232,9 @@ body {
 .boton1 {
   display: flex;
   text-decoration: none;
-  background-color: var(--colorPrincipal);
-  color: var(--negro);
-  border: 1px solid var(--colorPrincipal);
+  background-color: var(--colorSecundario);
+  color: var(--blanco);
+  border: 1px solid var(--colorSecundario);
   padding: 1.5rem 2.5rem;
   border-radius: 0.7rem;
   width: 50%;
@@ -277,8 +278,8 @@ body {
 }
 
 .boton1:hover {
-  background-color: var(--colorPrincipalClaro);
-  border: 1px solid var(--colorPrincipalClaro);
+  background-color: var(--colorSecundarioClaro);
+  border: 1px solid var(--colorSecundarioClaro);
   color: var(--negro);
 }
 
@@ -349,8 +350,8 @@ body {
 }
 
 .boton2:hover {
-  background-color: var(--colorPrincipal);
-  border: 1px solid var(--colorPrincipal);
+  background-color: var(--colorSecundario);
+  border: 1px solid var(--colorSecundario);
   color: var(--negro);
 }
 
